@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("toturiol")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TEXTBOXdemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce450a9411ecf7512a585c842c5be113a2cff564")]
-[assembly: System.Reflection.AssemblyProductAttribute("toturiol")]
-[assembly: System.Reflection.AssemblyTitleAttribute("toturiol")]
+[assembly: System.Reflection.AssemblyProductAttribute("TEXTBOXdemo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TEXTBOXdemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
