@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("toturiol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce450a9411ecf7512a585c842c5be113a2cff564")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+578285b5a160a5cf9f6dc7aa237de3ae1115813d")]
 [assembly: System.Reflection.AssemblyProductAttribute("toturiol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("toturiol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
