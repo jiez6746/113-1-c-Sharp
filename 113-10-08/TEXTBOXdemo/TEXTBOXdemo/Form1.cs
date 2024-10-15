@@ -14,7 +14,7 @@ namespace TEXTBOXdemo
 
         private void btnconfirm_Click(object sender, EventArgs e)
         {
-            string fullName;
+            string fullName; //變數一定要先宣告型態後才能用
             string firstName;
             string lastName;
 
@@ -22,7 +22,7 @@ namespace TEXTBOXdemo
             lastName = txtlast.Text;
             fullName = lastName + " " + firstName;
 
-            lblshow.Text = firstName;
+            lblshow.Text = fullName;
         }
     }
 }
