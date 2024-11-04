@@ -30,3 +30,13 @@ C:\Users\shu\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score 
 C:\Users\shu\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test Score Average.csproj.CoreCompileInputs.cache
 C:\Users\shu\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test Score Average.exe
 C:\Users\shu\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test Score Average.pdb
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\bin\Debug\Test Score Average.exe.config
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\bin\Debug\Test Score Average.exe
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\bin\Debug\Test Score Average.pdb
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test Score Average.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test_Score_Average.Form1.resources
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test_Score_Average.Properties.Resources.resources
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test Score Average.csproj.GenerateResource.cache
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test Score Average.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test Score Average.exe
+C:\Users\user\Desktop\113-1-c-Sharp\113-10-29\Chapter 04\Tutorial 4-1\Test Score Average\obj\x86\Debug\Test Score Average.pdb

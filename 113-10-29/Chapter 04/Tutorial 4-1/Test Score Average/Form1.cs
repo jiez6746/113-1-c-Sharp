@@ -22,11 +22,11 @@ namespace Test_Score_Average
             double test1, test2, test3, average;
             const double HIGHT_SCORE = 95.0;
 
-        
-            
+
+
             try
             {
-                test1= double.Parse(test1TextBox.Text);
+                test1 = double.Parse(test1TextBox.Text);
                 test2 = double.Parse(test2TextBox.Text);
                 test3 = double.Parse(test3TextBox.Text);
 
@@ -34,7 +34,7 @@ namespace Test_Score_Average
 
                 averageLabel.Text = average.ToString("n1");
 
-                if(average>HIGHT_SCORE)
+                if (average > HIGHT_SCORE)
                 {
                     MessageBox.Show("恭喜!幹的好!");
                 }
@@ -42,28 +42,40 @@ namespace Test_Score_Average
 
 
             }
-        catch (Exception ex) 
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            
-            
+
+                }
+
             }
 
         private void clearButton_Click(object sender, EventArgs e)
         {
             // Clear the TextBoxes and the averageLabel control.
-            test1TextBox.Text = "";
-            test2TextBox.Text = "";
-            test3TextBox.Text = "";
-            averageLabel.Text = "";
+            
 
             // Reset the focus to test1.
-            test1TextBox.Focus();
+           
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
             // Close the form.
+
+            
+        }
+
+        private void clearButton_Click_1(object sender, EventArgs e)
+        {
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click_1(object sender, EventArgs e)
+        {
             this.Close();
         }
     }
