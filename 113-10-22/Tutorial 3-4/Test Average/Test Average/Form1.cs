@@ -17,6 +17,32 @@ namespace Test_Average
             InitializeComponent();
         }
 
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double test1;
+                double test2;
+                double test3;
+                double average;
+
+                test1 = double.Parse(testBox1.Text);
+                test2 = double.Parse(testBox2.Text);
+                test3 = double.Parse(testBox3.Text);
+
+                average = (test1 + test2 + test3) / 3.0;
+
+                averageLabel.Text = average.ToString("n1");
+                    }
+
+            catch {Exception  }
+
+            {
+                MessageBox.Show(ex.Message);
+
+            }
         
+        
+        }
     }
 }
