@@ -18,23 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
+              "Title": "Form1.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\113-1-c-Sharp\\113-10-22\\Tutorial 3-5\\Change Counter\\Change Counter\\Form1.cs",
               "RelativeDocumentMoniker": "Change Counter\\Form1.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\113-1-c-Sharp\\113-10-22\\Tutorial 3-5\\Change Counter\\Change Counter\\Form1.cs [Design]",
-              "RelativeToolTip": "Change Counter\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\user\\Desktop\\113-1-c-Sharp\\113-10-22\\Tutorial 3-5\\Change Counter\\Change Counter\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Change Counter\\Form1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T08:48:15.482Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [\u8A2D\u8A08]"
             },
             {
               "$type": "Document",
@@ -44,7 +40,7 @@
               "RelativeDocumentMoniker": "Change Counter\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\113-1-c-Sharp\\113-10-22\\Tutorial 3-5\\Change Counter\\Change Counter\\Form1.cs",
               "RelativeToolTip": "Change Counter\\Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T08:01:07.915Z",
               "EditorCaption": ""
