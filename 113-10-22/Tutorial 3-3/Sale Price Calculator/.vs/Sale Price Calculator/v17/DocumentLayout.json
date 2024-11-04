@@ -18,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +28,7 @@
               "RelativeDocumentMoniker": "Sale Price Calculator\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\113-1-c-Sharp\\113-10-22\\Tutorial 3-3\\Sale Price Calculator\\Sale Price Calculator\\Form1.cs",
               "RelativeToolTip": "Sale Price Calculator\\Form1.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAwwD8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwD8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T08:00:05.799Z",
               "EditorCaption": ""

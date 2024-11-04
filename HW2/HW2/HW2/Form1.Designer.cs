@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            lbltocketc = new Label();
-            lblticketb = new Label();
-            lblticketa = new Label();
+            textBoxC = new TextBox();
+            textBoxB = new TextBox();
+            textBoxA = new TextBox();
+            lblclassC = new Label();
+            lblclassB = new Label();
+            lblclassA = new Label();
             groupBox2 = new GroupBox();
             lbltotal = new Label();
             label10 = new Label();
             saleC = new Label();
             Saleb = new Label();
-            lblclassA = new Label();
+            saleA = new Label();
             label6 = new Label();
             label5 = new Label();
-            saleA = new Label();
+            label4 = new Label();
             btncalculate = new Button();
             btnClear = new Button();
             btnExit = new Button();
@@ -53,12 +53,12 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(textBox3);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(lbltocketc);
-            groupBox1.Controls.Add(lblticketb);
-            groupBox1.Controls.Add(lblticketa);
+            groupBox1.Controls.Add(textBoxC);
+            groupBox1.Controls.Add(textBoxB);
+            groupBox1.Controls.Add(textBoxA);
+            groupBox1.Controls.Add(lblclassC);
+            groupBox1.Controls.Add(lblclassB);
+            groupBox1.Controls.Add(lblclassA);
             groupBox1.Location = new Point(29, 53);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(516, 301);
@@ -66,60 +66,60 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "已售門票";
             // 
-            // textBox3
+            // textBoxC
             // 
-            textBox3.Font = new Font("Microsoft JhengHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            textBox3.Location = new Point(219, 232);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(201, 35);
-            textBox3.TabIndex = 5;
+            textBoxC.Font = new Font("Microsoft JhengHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 136);
+            textBoxC.Location = new Point(219, 232);
+            textBoxC.Name = "textBoxC";
+            textBoxC.Size = new Size(201, 35);
+            textBoxC.TabIndex = 5;
             // 
-            // textBox2
+            // textBoxB
             // 
-            textBox2.Font = new Font("Microsoft JhengHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            textBox2.Location = new Point(219, 150);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(201, 35);
-            textBox2.TabIndex = 4;
+            textBoxB.Font = new Font("Microsoft JhengHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 136);
+            textBoxB.Location = new Point(219, 150);
+            textBoxB.Name = "textBoxB";
+            textBoxB.Size = new Size(201, 35);
+            textBoxB.TabIndex = 4;
             // 
-            // textBox1
+            // textBoxA
             // 
-            textBox1.Font = new Font("Microsoft JhengHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            textBox1.Location = new Point(219, 74);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(201, 35);
-            textBox1.TabIndex = 3;
+            textBoxA.Font = new Font("Microsoft JhengHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 136);
+            textBoxA.Location = new Point(219, 74);
+            textBoxA.Name = "textBoxA";
+            textBoxA.Size = new Size(201, 35);
+            textBoxA.TabIndex = 3;
             // 
-            // lbltocketc
+            // lblclassC
             // 
-            lbltocketc.AutoSize = true;
-            lbltocketc.Font = new Font("Microsoft JhengHei UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 136);
-            lbltocketc.Location = new Point(90, 232);
-            lbltocketc.Name = "lbltocketc";
-            lbltocketc.Size = new Size(103, 36);
-            lbltocketc.TabIndex = 2;
-            lbltocketc.Text = "ClassC";
-            lbltocketc.Click += label3_Click;
+            lblclassC.AutoSize = true;
+            lblclassC.Font = new Font("Microsoft JhengHei UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 136);
+            lblclassC.Location = new Point(90, 232);
+            lblclassC.Name = "lblclassC";
+            lblclassC.Size = new Size(103, 36);
+            lblclassC.TabIndex = 2;
+            lblclassC.Text = "ClassC";
+            lblclassC.Click += label3_Click;
             // 
-            // lblticketb
+            // lblclassB
             // 
-            lblticketb.AutoSize = true;
-            lblticketb.Font = new Font("Microsoft JhengHei UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 136);
-            lblticketb.Location = new Point(90, 150);
-            lblticketb.Name = "lblticketb";
-            lblticketb.Size = new Size(102, 36);
-            lblticketb.TabIndex = 1;
-            lblticketb.Text = "ClassB";
+            lblclassB.AutoSize = true;
+            lblclassB.Font = new Font("Microsoft JhengHei UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 136);
+            lblclassB.Location = new Point(90, 150);
+            lblclassB.Name = "lblclassB";
+            lblclassB.Size = new Size(102, 36);
+            lblclassB.TabIndex = 1;
+            lblclassB.Text = "ClassB";
             // 
-            // lblticketa
+            // lblclassA
             // 
-            lblticketa.AutoSize = true;
-            lblticketa.Font = new Font("Microsoft JhengHei UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 136);
-            lblticketa.Location = new Point(90, 67);
-            lblticketa.Name = "lblticketa";
-            lblticketa.Size = new Size(104, 36);
-            lblticketa.TabIndex = 0;
-            lblticketa.Text = "ClassA";
+            lblclassA.AutoSize = true;
+            lblclassA.Font = new Font("Microsoft JhengHei UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 136);
+            lblclassA.Location = new Point(90, 67);
+            lblclassA.Name = "lblclassA";
+            lblclassA.Size = new Size(104, 36);
+            lblclassA.TabIndex = 0;
+            lblclassA.Text = "ClassA";
             // 
             // groupBox2
             // 
@@ -127,11 +127,11 @@
             groupBox2.Controls.Add(label10);
             groupBox2.Controls.Add(saleC);
             groupBox2.Controls.Add(Saleb);
-            groupBox2.Controls.Add(lblclassA);
+            groupBox2.Controls.Add(saleA);
             groupBox2.Controls.Add(label6);
             groupBox2.Controls.Add(label5);
-            groupBox2.Controls.Add(saleA);
-            groupBox2.Location = new Point(652, 72);
+            groupBox2.Controls.Add(label4);
+            groupBox2.Location = new Point(649, 53);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(576, 333);
             groupBox2.TabIndex = 1;
@@ -178,15 +178,15 @@
             Saleb.TabIndex = 8;
             Saleb.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // lblclassA
+            // saleA
             // 
-            lblclassA.BorderStyle = BorderStyle.Fixed3D;
-            lblclassA.Font = new Font("Microsoft JhengHei UI", 11F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 136);
-            lblclassA.Location = new Point(201, 60);
-            lblclassA.Name = "lblclassA";
-            lblclassA.Size = new Size(219, 46);
-            lblclassA.TabIndex = 7;
-            lblclassA.TextAlign = ContentAlignment.MiddleCenter;
+            saleA.BorderStyle = BorderStyle.Fixed3D;
+            saleA.Font = new Font("Microsoft JhengHei UI", 11F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 136);
+            saleA.Location = new Point(201, 60);
+            saleA.Name = "saleA";
+            saleA.Size = new Size(219, 46);
+            saleA.TabIndex = 7;
+            saleA.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
@@ -208,15 +208,15 @@
             label5.TabIndex = 6;
             label5.Text = "ClassB";
             // 
-            // saleA
+            // label4
             // 
-            saleA.AutoSize = true;
-            saleA.Font = new Font("Microsoft JhengHei UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 136);
-            saleA.Location = new Point(57, 55);
-            saleA.Name = "saleA";
-            saleA.Size = new Size(104, 36);
-            saleA.TabIndex = 6;
-            saleA.Text = "ClassA";
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft JhengHei UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 136);
+            label4.Location = new Point(57, 55);
+            label4.Name = "label4";
+            label4.Size = new Size(104, 36);
+            label4.TabIndex = 6;
+            label4.Text = "ClassA";
             // 
             // btncalculate
             // 
@@ -270,17 +270,17 @@
         #endregion
 
         private GroupBox groupBox1;
-        private Label lblticketa;
-        private Label lbltocketc;
-        private Label lblticketb;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private GroupBox groupBox2;
         private Label lblclassA;
+        private Label lblclassC;
+        private Label lblclassB;
+        private TextBox textBoxC;
+        private TextBox textBoxB;
+        private TextBox textBoxA;
+        private GroupBox groupBox2;
+        private Label saleA;
         private Label label6;
         private Label label5;
-        private Label saleA;
+        private Label label4;
         private Label saleC;
         private Label Saleb;
         private Button btncalculate;

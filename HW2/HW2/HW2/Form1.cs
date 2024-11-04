@@ -29,36 +29,40 @@ namespace HW2
             try
             {
                 //售票數量
-                decimal ClassA = 15.0m;
-                decimal ClassB = 12.0m;
-                decimal ClassC = 9.0m;
+                
+                decimal ClassA;
+                decimal ClassB;
+                decimal ClassC;
+                
 
-                textBox1.Text = ("");
-                textBox2.Text = ("");
-                textBox3.Text = ("");
+                ClassA = decimal.Parse(textBoxA.Text);
+                ClassB = decimal.Parse(textBoxB.Text);
+                ClassC = decimal.Parse(textBoxC.Text);
 
-                int lblticketa = int.Parse(textBox1.Text);
-                int lblticjetb = int.Parse(textBox2.Text);
-                int lblticketc = int.Parse(textBox3.Text);
 
                 //銷售金額
+
+                decimal  saleA = ClassA * 15.0m;
+                decimal  saleB = ClassB * 12.0m;
+                decimal  saleC = ClassC * 9.0m;
+                decimal  total = saleA + saleB + saleC;
+
+
+               
+
+
+
+
                 
-                    
-                
-
-
-
-                 
-                
-
-
-
+               
             }
 
-            catch { }
-
-            
-
+            catch (Exception ex)
+            {
+             
+            MessageBox.Show(ex.Message);
+               
+            }
 
 
 
@@ -74,9 +78,9 @@ namespace HW2
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            textBox1.Text= "";
-            textBox2.Text = "";
-            textBox3.Text = "";
+            textBoxA.Text= "";
+            textBoxB.Text = "";
+            textBoxC.Text = "";
         }
     }
 }
