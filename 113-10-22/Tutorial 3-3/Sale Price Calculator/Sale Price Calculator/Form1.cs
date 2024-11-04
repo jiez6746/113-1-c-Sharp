@@ -53,14 +53,15 @@ namespace Sale_Price_Calculator
             decimal originalPrice;
             decimal discountPercentage;
             decimal salePrice;
-        try
-            originalPrice = decimal.Parse(originalPriceTextBox.Text);
-            discountPercentage = decimal.Parse(discountPercentageTextBox.Text);
-            salePrice = originalPrice - (originalPrice * discountPercentage / 100);
+            try
+            {
+                originalPrice = decimal.Parse(originalPriceTextBox.Text);
+                discountPercentage = decimal.Parse(discountPercentageTextBox.Text);
+                salePrice = originalPrice - (originalPrice * discountPercentage / 100);
 
-            salePriceLabel.Text = salePrice.ToString("c");
-
-
+                salePriceLabel.Text = salePrice.ToString("c");
+            }
+            catch { }
         }
 
         private void exitButton_Click(object sender, EventArgs e)

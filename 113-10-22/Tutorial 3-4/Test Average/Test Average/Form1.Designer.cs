@@ -44,7 +44,7 @@
             // testBox1
             // 
             this.testBox1.Location = new System.Drawing.Point(153, 21);
-            this.testBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.testBox1.Margin = new System.Windows.Forms.Padding(4);
             this.testBox1.Name = "testBox1";
             this.testBox1.Size = new System.Drawing.Size(148, 29);
             this.testBox1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // testBox2
             // 
             this.testBox2.Location = new System.Drawing.Point(153, 57);
-            this.testBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.testBox2.Margin = new System.Windows.Forms.Padding(4);
             this.testBox2.Name = "testBox2";
             this.testBox2.Size = new System.Drawing.Size(148, 29);
             this.testBox2.TabIndex = 1;
@@ -60,7 +60,7 @@
             // testBox3
             // 
             this.testBox3.Location = new System.Drawing.Point(153, 93);
-            this.testBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.testBox3.Margin = new System.Windows.Forms.Padding(4);
             this.testBox3.Name = "testBox3";
             this.testBox3.Size = new System.Drawing.Size(148, 29);
             this.testBox3.TabIndex = 2;
@@ -118,7 +118,7 @@
             // calculateButton
             // 
             this.calculateButton.Location = new System.Drawing.Point(14, 198);
-            this.calculateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(4);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(112, 50);
             this.calculateButton.TabIndex = 8;
@@ -129,22 +129,24 @@
             // clearButton
             // 
             this.clearButton.Location = new System.Drawing.Point(135, 198);
-            this.clearButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(4);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(112, 50);
             this.clearButton.TabIndex = 9;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // exitButton
             // 
             this.exitButton.Location = new System.Drawing.Point(256, 198);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(112, 50);
             this.exitButton.TabIndex = 10;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
@@ -162,7 +164,7 @@
             this.Controls.Add(this.testBox3);
             this.Controls.Add(this.testBox2);
             this.Controls.Add(this.testBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Test Average";
             this.ResumeLayout(false);

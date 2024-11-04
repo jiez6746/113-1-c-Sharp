@@ -19,13 +19,15 @@ namespace Test_Average
 
         private void calculateButton_Click(object sender, EventArgs e)
         {
+
+            double test1;
+            double test2;
+            double test3;
+            double average;
+
             try
             {
-                double test1;
-                double test2;
-                double test3;
-                double average;
-
+                
                 test1 = double.Parse(testBox1.Text);
                 test2 = double.Parse(testBox2.Text);
                 test3 = double.Parse(testBox3.Text);
@@ -35,14 +37,27 @@ namespace Test_Average
                 averageLabel.Text = average.ToString("n1");
                     }
 
-            catch {Exception  }
+            catch {  }
 
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(averageLabel.Text);
 
             }
         
         
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            testBox1.Text = "";
+            testBox2.Text = "";
+            testBox3.Text = "";
+            averageLabel.Text = "";
         }
     }
 }
