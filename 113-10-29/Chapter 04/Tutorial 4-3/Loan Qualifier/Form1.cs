@@ -19,57 +19,7 @@ namespace Loan_Qualifier
 
         private void checkButton_Click(object sender, EventArgs e)
         {
-            decimal salary;
-            int years;
-            const decimal MIN_SALARY = 1300000m;
-            const int MIN_YEARS = 2;
-
-
-            try
-            {
-                salary = decimal.Parse(salaryTextBox.Text);
-                years = int.Parse(yearsTextBox.Text);
-
-                if (salary >= MIN_SALARY)
-                {
-
-
-
-                    if (years >= MIN_YEARS)
-                    {
-
-                        decisionLabel.Text = "條件符合，貨款通過";
-
-                    }
-
-                    else
-                    {
-
-                        decisionLabel.Text = "工作年資未達標準，貨款不通過";
-
-                    }
-
-                }
-
-
-
-                else
-                {
-
-                    decisionLabel.Text = "薪資所得未達標準，貨款不通過";
-
-
-                }
-
-        }
-
-            catch (Exception ex) 
-            {
-                MessageBox.Show(ex.Message);
-
-            }
-
-
+            
         }
 
         private void clearButton_Click(object sender, EventArgs e)

@@ -1,0 +1,17 @@
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\bin\Debug\net8.0-windows\checkbox.exe
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\bin\Debug\net8.0-windows\checkbox.deps.json
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\bin\Debug\net8.0-windows\checkbox.runtimeconfig.json
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\bin\Debug\net8.0-windows\checkbox.dll
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\bin\Debug\net8.0-windows\checkbox.pdb
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.Form1.resources
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.AssemblyInfoInputs.cache
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.AssemblyInfo.cs
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.sourcelink.json
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.dll
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\refint\checkbox.dll
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.pdb
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\checkbox.genruntimeconfig.cache
+C:\Users\shu\Desktop\113-1-c-Sharp\113-11-05\checkbox\checkbox\obj\Debug\net8.0-windows\ref\checkbox.dll
