@@ -36,50 +36,28 @@ namespace Test_Score_Average
 
                 averageLabel.Text = average.ToString("n1");
 
-                //if (average >= 90)
-                //{
-                //    grade = "A";
-                //}
-                //else if (average >= 80)
-                //{
-                //    grade = "B";
-                //}
-                //else if (average >= 70)
-                //{
-                //    grade = "C";
-                //}
-
-                //else if (average >= 60)
-                //{
-                //    grade = "D";
-                //}
-
-                //else
-                //{
-                //    grade = "F";
-                //}
-
-                switch((int)average/10) 
+                if (average >= 90)
                 {
+                    grade = "A";
+                }
+                else if (average >= 80)
+                {
+                    grade = "B";
+                }
+                else if (average >= 70)
+                {
+                    grade = "C";
+                }
 
-                    case 10:
-                        case 9;
-                        grade = "A"; 
-                        break;
-                        case 8 ;
-                        grade = "B";
-                        break
-                        case 7;
-                        grade= "C";
-                        break;
-                        case 6;
-                        grade = "D";
-                        break;
-                        default:
-                        grade = "F";
-                        break;
+                else if (average >= 60)
+                {
+                    grade = "D";
+                }
 
-
+                else
+                {
+                    grade = "F";
+                }
             }
             catch (Exception ex)
             {
