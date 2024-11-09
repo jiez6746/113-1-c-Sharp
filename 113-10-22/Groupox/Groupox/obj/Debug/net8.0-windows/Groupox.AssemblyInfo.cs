@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Groupox")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b06762bc333380cccba5915eb715fd040f17cfad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cda9f7aea7b249724f29fef1cb2133e5b0239abf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Groupox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Groupox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

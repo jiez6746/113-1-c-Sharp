@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -34,10 +34,6 @@
               "EditorCaption": " [\u8A2D\u8A08]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
@@ -45,7 +41,7 @@
               "RelativeDocumentMoniker": "Test Average\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\113-1-c-Sharp\\113-10-22\\Tutorial 3-4\\Test Average\\Test Average\\Form1.cs",
               "RelativeToolTip": "Test Average\\Form1.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwBkAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwBkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T12:56:03.517Z",
               "EditorCaption": ""

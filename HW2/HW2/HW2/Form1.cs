@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices;
+
 namespace HW2
 {
     public partial class Form1 : Form
@@ -7,80 +9,70 @@ namespace HW2
             InitializeComponent();
         }
 
-        private void 已售門票_Enter(object sender, EventArgs e)
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btncalculate_Click(object sender, EventArgs e)
-        {
-
-
-            try
-            {
-                //售票數量
-                
-                decimal ClassA;
-                decimal ClassB;
-                decimal ClassC;
-                
-
-                ClassA = decimal.Parse(textBoxA.Text);
-                ClassB = decimal.Parse(textBoxB.Text);
-                ClassC = decimal.Parse(textBoxC.Text);
-
-
-                //銷售金額
-
-                decimal  saleA = ClassA * 15.0m;
-                decimal  saleB = ClassB * 12.0m;
-                decimal  saleC = ClassC * 9.0m;
-                decimal  total = saleA + saleB + saleC;
-
-
-               
-
-
-
-
-                
-               
-            }
-
-            catch (Exception ex)
-            {
-             
-            MessageBox.Show(ex.Message);
-               
-            }
-
-
-
-
+            textBoxA.Text = "";
+            textBoxB.Text = "";
+            textBoxC.Text = "";
+            lblclassA.Text = "";
+            lblclassB.Text = "";
+            lblclassC.Text = "";
+            lblTotal.Text = "";
 
 
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void btnClear_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            textBoxA.Text= "";
-            textBoxB.Text = "";
-            textBoxC.Text = "";
+            
+
+            try
+            {
+
+               int ticketA = int.Parse(textBoxA.Text);
+               int ticketB = int.Parse(textBoxB.Text);
+               int ticketC = int.Parse(textBoxC.Text);
+
+                const decimal priceA = 15m;
+                const decimal priceB = 12m;
+                const decimal priceC = 9m;
+
+
+                
+                decimal ClassA = ticketA * priceA;
+                decimal ClassB = ticketB * priceB;
+                decimal ClassC = ticketC * priceC;
+                decimal Total = ClassA + ClassB + ClassC ;
+
+                lblclassA.Text = ClassA.ToString("c");
+                lblclassB.Text = ClassB.ToString("c");
+                lblclassC.Text = ClassC.ToString("c");
+                lblTotal.Text = Total.ToString("c");
+                
+
+
+                
+                
+                
+                
+                
+
+
+            }
+
+            catch (Exception ) { }
+            
+
         }
     }
 }

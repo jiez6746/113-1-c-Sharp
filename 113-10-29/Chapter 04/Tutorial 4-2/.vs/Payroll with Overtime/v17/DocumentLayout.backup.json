@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -28,15 +28,11 @@
               "RelativeDocumentMoniker": "Payroll with Overtime\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\113-1-c-Sharp\\113-10-29\\Chapter 04\\Tutorial 4-2\\Payroll with Overtime\\Form1.cs",
               "RelativeToolTip": "Payroll with Overtime\\Form1.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAADwv1UAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwv1UAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T05:38:34.108Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
