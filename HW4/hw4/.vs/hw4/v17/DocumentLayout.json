@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{6AD74147-5D8A-4830-BC50-6406982066DD}|hw4\\hw4.csproj|solutionrelative:hw4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AD74147-5D8A-4830-BC50-6406982066DD}|hw4\\hw4.csproj|c:\\users\\user\\desktop\\113-1-c-sharp\\hw4\\hw4\\hw4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6AD74147-5D8A-4830-BC50-6406982066DD}|hw4\\hw4.csproj|C:\\Users\\user\\Desktop\\113-1-c-Sharp\\HW4\\hw4\\hw4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6AD74147-5D8A-4830-BC50-6406982066DD}|hw4\\hw4.csproj|solutionrelative:hw4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\user\\Desktop\\113-1-c-Sharp\\HW4\\hw4\\hw4\\Form1.cs [\u8A2D\u8A08]",
               "RelativeToolTip": "hw4\\Form1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T06:52:34.87Z",
-              "EditorCaption": " [\u8A2D\u8A08]"
+              "WhenOpened": "2024-12-01T06:52:34.87Z"
             }
           ]
         }
